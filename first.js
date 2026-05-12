@@ -259,25 +259,46 @@
 
 
 // pyramid - 
-for(let i=1;i<=5;i++){  //row
-    let pattern = "";
-    // spaces-
-    for(let j=1;j<=(5-i);j++){  //column + space
-        pattern += " ";
-    }
-    // stars -
-    for(let k=1;k<=(2*i-1);k++){  //star pattern OR number pattern
-        pattern += "*";
-    }
-    console.log(pattern);
-}
+// for(let i=1;i<=5;i++){  //row
+//     let pattern = "";
+//     // spaces-
+//     for(let j=1;j<=(5-i);j++){  //column + space
+//         pattern += " ";
+//     }
+//     // stars -
+//     for(let k=1;k<=(2*i-1);k++){  //star pattern OR number pattern
+//         pattern += "*";
+//     }
+//     console.log(pattern);
+// }
+
+//homework# 
+// for(let i=1;i<=20;i++){
+//       if (i % 2 == 0){
+//         console.log(i);
+//     }    
+// }
+
+//home work sum of two numbers 
+// let num1 = parseInt(prompt("Enter a number"));
+// let num2 = parseInt(prompt("Enter a number"));
+// let sum = num1 + num2
+// document.write("sum of " + num1 + " and " + num2 + " is " + sum);
+
+//odd or even number find home work 
+// let i=5;
+// if(i % 2 == 0 ){
+//     console.log("even");
+// }
+// else{
+//     console.log("odd");
+// }
 
 
-
-
-
-
-
+//how to find square of a number #home work 
+// let number = 5;
+// let square = number * number;
+// console.log("square of " + number + " is " + square);
 
 
 
