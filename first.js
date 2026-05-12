@@ -282,6 +282,7 @@
 //home work sum of two numbers 
 // let num1 = parseInt(prompt("Enter a number"));
 // let num2 = parseInt(prompt("Enter a number"));
+// let num2 = parseFloat(prompt("Enter a number"));
 // let sum = num1 + num2
 // document.write("sum of " + num1 + " and " + num2 + " is " + sum);
 
@@ -301,4 +302,51 @@
 // console.log("square of " + number + " is " + square);
 
 
+// Array- []
+let a = ["apple", "kiwi", "pineapple", "mango"];
+// console.log(a[1]); 
+// a[2]="orange"; //modify
+// console.log(a);
+// a.push("orange"); //add at the end
+// a.unshift("orange");  //add at the beginning
+// a.pop(); //remove last
+// console.log(a);
+// console.log(a.length); //length func
+
+// loop through array - 
+// for(let i=0;i<=a.length;i++){
+//     console.log(a[i]);
+// }
+
+// multidimensional array - 
+// let arr = [
+//     [value1, value2],
+//     [value3, value4]
+// ];
+// let arr = [
+//     ["Alia", 50],
+//     ["Sara", 90],
+//     ["John", 80]
+// ];
+// console.log(arr);
+
+// arrayname[row][column] => syntax
+
+// console.log(arr[0][1]);
+
+// nested loop -
+let arr2 = [
+    [1,2],
+    [3,4],
+    [5,6]
+];
+// output should be print all numbers
+
+for(let i =0;i<=arr2.length;i++){
+    for(let j=0;j<=arr2[i].length;j++){
+        console.log(arr2[i][j]);
+    }
+}
+
+// homework => sum,square using function + 1 star pattern
 
