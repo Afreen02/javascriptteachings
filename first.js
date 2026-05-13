@@ -335,18 +335,54 @@ let a = ["apple", "kiwi", "pineapple", "mango"];
 // console.log(arr[0][1]);
 
 // nested loop -
-let arr2 = [
-    [1,2],
-    [3,4],
-    [5,6]
-];
+// let arr2 = [
+//     [1,2],
+//     [3,4],
+//     [5,6]
+// ];
 // output should be print all numbers
 
-for(let i =0;i<=arr2.length;i++){
-    for(let j=0;j<=arr2[i].length;j++){
-        console.log(arr2[i][j]);
-    }
-}
+// for(let i =0;i<=arr2.length;i++){
+//     for(let j=0;j<=arr2[i].length;j++){
+//         console.log(arr2[i][j]);
+//     }
+// }
 
 // homework => sum,square using function + 1 star pattern
+
+// built-in array functions -  push,pop,unshift,shift
+//4. shift => remove first element
+let fruits = ["apple","banana","kiwi","orange"];
+// fruits.shift();
+// console.log(fruits);
+
+//5. indexOf()=> index position of element 
+// console.log(fruits.indexOf("kiwi"));
+
+//6. includes => check if element exists
+// console.log(fruits.includes("orang"));
+
+// 7. slice => return selected part of array
+// console.log(fruits.slice(1,3));
+
+//8. splice =>add/removes elements
+// fruits.splice(1,1,"pineapple");
+// console.log(fruits);
+
+// 9.concat => combine arrays
+// let arr1 = [1,2];
+// let arr2 = [3,4];
+// console.log(arr1.concat(arr2));
+
+// 10.join =>converts array into string
+// console.log(fruits.join("/"));
+
+// // 11. reverse -
+// fruits.reverse();
+// console.log(fruits);
+
+// 12.sort -
+fruits.sort();
+console.log(fruits);
+
 
