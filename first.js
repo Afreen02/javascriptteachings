@@ -391,6 +391,7 @@ let a = ["apple", "kiwi", "pineapple", "mango"];
 // }
 // const result = Sum(10, 20); 
 // console.log(result);
+// console.log(Sum(10,20));
 
 
 
@@ -399,4 +400,70 @@ let a = ["apple", "kiwi", "pineapple", "mango"];
 // }
 // const result = Square(5);
 // console.log(result);
+
+
+// Object - store data in key value pair
+// let objects1 = {
+//     key1:value1,
+//     key2:valye2
+// }
+
+let student = {
+    name:"Alia",
+    age:21,
+    city:"Delhi"
+};
+console.log(student);
+console.log(student.name);
+console.log(student.age);
+// 2nd method - 
+console.log(student["name"]);
+console.log(student["age"]);
+
+// adding new property-
+student.country ="India";
+console.log(student);
+
+// updating object -
+student.age = 25;
+console.log(student);
+
+// deleting object - 
+delete student.age;
+console.log(student);
+
+// Object with function(method)-
+let person = {
+    name:"Sara",
+    claases: function(){
+        console.log("HELLO");
+    }
+};
+person.claases();
+
+// Multiple objects in Array- 
+let student1 = [
+    {
+        name:"Fish",
+        age:20
+    },
+    {
+        name:"Riya",
+        age:25
+    },
+]
+console.log(student1[0].name);
+console.log(student1[1].name);
+
+// object - store data
+// key - property name
+// value - data stored in property
+// dot notation - object.key
+// bracket notation - object["key"]
+// Method - function inside object
+
+//  Q1. Create an object for a car
+// properties(brand,model,price)
+// Q2. Add property
+// Q3. Update property
 
