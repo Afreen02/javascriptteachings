@@ -352,7 +352,7 @@ let a = ["apple", "kiwi", "pineapple", "mango"];
 
 // built-in array functions -  push,pop,unshift,shift
 //4. shift => remove first element
-let fruits = ["apple","banana","kiwi","orange"];
+// let fruits = ["apple","banana","kiwi","orange"];
 // fruits.shift();
 // console.log(fruits);
 
@@ -382,7 +382,21 @@ let fruits = ["apple","banana","kiwi","orange"];
 // console.log(fruits);
 
 // 12.sort -
-fruits.sort();
-console.log(fruits);
+// fruits.sort();
+// console.log(fruits);
 
+
+// function Sum(num1, num2) {
+//     return num1 + num2;
+// }
+// const result = Sum(10, 20); 
+// console.log(result);
+
+
+
+// function Square(num) {
+//   return num * num;
+// }
+// const result = Square(5);
+// console.log(result);
 
