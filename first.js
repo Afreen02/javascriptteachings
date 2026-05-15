@@ -408,52 +408,52 @@ let a = ["apple", "kiwi", "pineapple", "mango"];
 //     key2:valye2
 // }
 
-let student = {
-    name:"Alia",
-    age:21,
-    city:"Delhi"
-};
-console.log(student);
-console.log(student.name);
-console.log(student.age);
+// let student = {
+//     name:"Alia",
+//     age:21,
+//     city:"Delhi"
+// };
+// console.log(student);
+// console.log(student.name);
+// console.log(student.age);
 // 2nd method - 
-console.log(student["name"]);
-console.log(student["age"]);
+// console.log(student["name"]);
+// console.log(student["age"]);
 
 // adding new property-
-student.country ="India";
-console.log(student);
+// student.country ="India";
+// console.log(student);
 
 // updating object -
-student.age = 25;
-console.log(student);
+// student.age = 25;
+// console.log(student);
 
 // deleting object - 
-delete student.age;
-console.log(student);
+// delete student.age;
+// console.log(student);
 
 // Object with function(method)-
-let person = {
-    name:"Sara",
-    claases: function(){
-        console.log("HELLO");
-    }
-};
-person.claases();
+// let person = {
+//     name:"Sara",
+//     claases: function(){
+//         console.log("HELLO");
+//     }
+// };
+// person.claases();
 
 // Multiple objects in Array- 
-let student1 = [
-    {
-        name:"Fish",
-        age:20
-    },
-    {
-        name:"Riya",
-        age:25
-    },
-]
-console.log(student1[0].name);
-console.log(student1[1].name);
+// let student1 = [
+//     {
+//         name:"Fish",
+//         age:20
+//     },
+//     {
+//         name:"Riya",
+//         age:25
+//     },
+// ]
+// console.log(student1[0].name);
+// console.log(student1[1].name);
 
 // object - store data
 // key - property name
@@ -466,4 +466,53 @@ console.log(student1[1].name);
 // properties(brand,model,price)
 // Q2. Add property
 // Q3. Update property
+
+// Array functions - some, every, findindex, filter, foreach, map
+// 1.some() - check if at least 1 element satisfy the condition.
+let numbers = [10,20,30,40];
+// let result = numbers.some(function(num){
+//     return num>25;
+// });
+// console.log(result);
+
+
+// 2.every()- check if all elements satisfy the condition.
+// let result = numbers.every(function(num){
+//     return num>45;
+// });
+// console.log(result);
+
+// 3.findIndex()- gives index number
+// if not found => -1
+// let result = numbers.findIndex(function(num){
+//     return num >= 20;
+// });
+// console.log(result);
+
+// 4.filter()- create new array with matching elements
+// let result = numbers.filter(function(num){
+//     return num > 20;
+// });
+// console.log(result);
+
+
+// 5.foreach - loop through array elements
+// let num = ["Apple", "Mango", "Kiwi", "Banana"];
+// num.forEach(function(fru){
+//     console.log(fru);
+// })
+
+// 6.map - loop through array elements.
+// - create new array
+// syntax - array.map(function(value, index,array){
+//  operation
+// });
+
+// let result = numbers.map(function(num){
+//     return num * 2;
+// });
+// console.log(result);
+
+
+
 
